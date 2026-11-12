@@ -1,0 +1,5 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-12
+  Changes:
+    - This fork retains the original beacon module changes for Factorio 2.1.24. Quality support is required; the expanded effects alter the usual beacon balance.

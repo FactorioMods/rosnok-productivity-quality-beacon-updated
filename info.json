@@ -1,13 +1,18 @@
 {
-  "name": "rosnok-productivity-quality-beacon",
-  "version": "1.1.2",
-  "factorio_version": "2.0",
-  "title": "Beacon Productivity and Quality for Space Age",
-  "author": "Rosnok",
+  "name": "rosnok-productivity-quality-beacon-updated",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
+  "title": "Beacon Productivity and Quality for Space Age: Updated",
+  "author": "Rosnok; FactorioMods (Factorio 2.1 port)",
   "contact": "izuna.ninja",
-  "description": "Allows productivity and quality modules to be used beacons. Very questionable balance.",
-  "dependencies": ["base >= 2.0",
-  "? space-age",
-  "quality"]
-} 
-
+  "description": "Factorio 2.1 compatibility fork of rosnok-productivity-quality-beacon. Allows productivity and quality modules to be used beacons. Very questionable balance.",
+  "dependencies": [
+    "base >= 2.1.24",
+    "? space-age",
+    "quality",
+    "! rosnok-productivity-quality-beacon"
+  ],
+  "migrates_from": [
+    "rosnok-productivity-quality-beacon"
+  ]
+}
